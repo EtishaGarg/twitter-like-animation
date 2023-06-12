@@ -42,7 +42,7 @@
   margin-left: 6px;
 }
 
-.like-button .heart-icon:hover {
+.like-button .heart-icon.liked {
   animation: like-anim 0.7s steps(28) forwards;
 }
 
