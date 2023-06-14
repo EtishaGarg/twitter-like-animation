@@ -16,14 +16,12 @@ function App() {
   };
   return (
     <div className='App'>
-      <div className='like-button'>
-        <div className='heart-bg'>
-          <div className={`heart-icon ${liked ? 'liked' : ''}`} onClick={toggleDisplay}></div>
-          </div>
-          <div className='likes-amount'>
-            {likeCount}
-          </div>
-      </div>
+      <div className='heart-bg'>
+        <div className={`heart-icon ${liked ? 'liked' : ''}`} onClick={toggleDisplay}></div>
+        </div>
+        <div className='likes-amount'>
+          {likeCount}
+        </div>
     </div>
   );
 } 
