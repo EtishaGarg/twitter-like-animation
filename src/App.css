@@ -46,3 +46,7 @@
     background-position: right;
   }
 }
+
+.likes-amount.liked {
+  color: red;
+}
